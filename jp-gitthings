@@ -1,0 +1,43 @@
+I learnt 
+git init
+git status
+git add file name 
+git commit -m "message"
+git log
+git diff
+git rm --cached "filename"
+git branch "name"
+git branch -d "name" -- delete branach
+git checkout "branchname"  -- to move to the branch
+git switch "branchname"
+git merge "branchname"
+git pull origin branch name -- to get the updated file and merge to the to git repo from remote repo-- merge + ftech
+git fetch -- to get the updated file without merge
+git merge - to merge the data
+git stash - to move the file to hidd after staging to git
+git stash pop - to get the hidden file
+git stash clear to clear the hide file
+git merge and rebase 
+git clone "url"
+merge conflict resolution
+git reset --hard
+git reset hashid
+fork - is used to get the copy of the existing project repo, to change
+fork - to get the copy of the things fromm GitHub account to our main git hub repo
+git rebase -i "id" -- with the help of this we can peform quash and commit
+know the squash commit -- to make the all commits to one
+AND HOW TO PUSH THE CODE TO GIT REMOTE REPO
+
+1.create a git repo
+2.add any file to that repo with git add file_name
+3.commit with commit keyword git commit -m "message"
+4.create a branch like git branch -M main
+5.add the git repo to git remote repo - git remote add origin "githuub path"
+5.push the code to GitHub(remote repo) -- git push -u origin main
+
+
+
+so a.we can use fork to get the copy of the remote repo
+b.with the help of clone,we can get the clone to the local system repo
+c.we can create a branches and add the additional functionality or changes 
+d.if we push this request to the main branch of the upstarem main, it wont work because of the security issues so we use the pull request in git hub , that main remote repo will get that request(Pr) to approve for to merge into that the main upstream main.
